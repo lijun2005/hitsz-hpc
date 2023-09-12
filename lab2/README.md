@@ -12,14 +12,23 @@
 ## 实验结果
 
 朴素矩阵乘法size = 16,gflops:0.195048
+
 朴素矩阵乘法size = 64,gflops:0.575508
+
 朴素矩阵乘法size = 256,gflops:0.693159
+
 朴素矩阵乘法size = 1024,gflops:0.555885
+
 朴素矩阵乘法size = 2048,gflops:0.435868
+
 cblas加速矩阵乘法size = 16,gflops:0.017174
+
 cblas加速矩阵乘法size = 64,gflops:6.472691
+
 cblas加速矩阵乘法size = 256,gflops:24.157258
+
 cblas加速矩阵乘法size = 1024,gflops:44.086216
+
 cblas加速矩阵乘法size = 2048,gflops:98.644173
 
 测试对比图如下：
