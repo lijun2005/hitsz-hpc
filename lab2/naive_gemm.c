@@ -39,8 +39,10 @@ int main()
             gettimeofday(&start,NULL);
             navie_gemm(A,B,size[i]);
             gettimeofday(&finish,NULL);
+            double gflops = 2.0 * size[i] *size[i]*size[i];
             duration = ((double)(finish.tv_sec-start.tv_sec)*1000000 + (double)(finish.tv_usec-start.tv_usec)) / 1000000;
-            fprintf(fp,"朴素矩阵乘法size = %d,运行时间为：%lf\n",size[i],duration);
+            gflops = gflops/duration*1.0e-6/1000;
+            fprintf(fp,"朴素矩阵乘法size = %d,gflops:%lf\n",size[i],gflops);
         }
     printf("计算结束！");
     return 0;
