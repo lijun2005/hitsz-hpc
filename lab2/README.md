@@ -24,7 +24,7 @@ cblas加速矩阵乘法size = 2048,gflops:98.644173
 
 测试对比图如下：
 
-![实验结果图](/home/lijun/hpc/lab2/answer.png)
+![实验结果图](answer.png)
 
 
 
