@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
+#include "common.h"
 int
 main(int argc, char *argv[])
 {
@@ -13,15 +13,15 @@ main(int argc, char *argv[])
         exit(1);
     } else if (rc == 0) {
         // child (new process)
-        sleep(2);
+        Spin(2);
         printf("hello, I am child (pid:%d)\n", (int) getpid());
-        printf("chile progress sleep for 2\n");
+        printf("chile progress Spin for 2\n");
     } else {
         // parent goes down this path (original process)
-        sleep(1);
+        Spin(1);
         printf("hello, I am parent of %d (pid:%d)\n",
 	       rc, (int) getpid());
-        printf("parent progress sleep for 1\n");
+        printf("parent progress Spin for 1\n");
     }
     return 0;
 }
