@@ -1,0 +1,47 @@
+mpi矩阵乘法 size= 16,time = 0.000051,gflops:0.162074,progress:2 
+mpi矩阵乘法 size= 64,time = 0.002478,gflops:0.211607,progress:2 
+mpi矩阵乘法 size= 128,time = 0.008864,gflops:0.473175,progress:2 
+mpi矩阵乘法 size= 256,time = 0.044480,gflops:0.754366,progress:2 
+mpi矩阵乘法 size= 512,time = 0.390888,gflops:0.686732,progress:2 
+mpi矩阵乘法 size= 1024,time = 3.483819,gflops:0.616417,progress:2 
+mpi矩阵乘法 size= 2048,time = 38.637876,gflops:0.444638,progress:2 
+
+mpi矩阵乘法 size= 16,time = 0.000021,gflops:0.381775,progress:4 
+mpi矩阵乘法 size= 64,time = 0.000554,gflops:0.946631,progress:4 
+mpi矩阵乘法 size= 128,time = 0.003914,gflops:1.071714,progress:4 
+mpi矩阵乘法 size= 256,time = 0.027244,gflops:1.231612,progress:4 
+mpi矩阵乘法 size= 512,time = 0.210932,gflops:1.272617,progress:4 
+mpi矩阵乘法 size= 1024,time = 1.967031,gflops:1.091739,progress:4 
+mpi矩阵乘法 size= 2048,time = 20.493773,gflops:0.838297,progress:4 
+
+mpi矩阵乘法 size= 16,time = 0.000083,gflops:0.098171,progress:8 
+mpi矩阵乘法 size= 64,time = 0.000338,gflops:1.550792,progress:8 
+mpi矩阵乘法 size= 128,time = 0.002344,gflops:1.789643,progress:8 
+mpi矩阵乘法 size= 256,time = 0.013617,gflops:2.464194,progress:8 
+mpi矩阵乘法 size= 512,time = 0.117194,gflops:2.290519,progress:8 
+mpi矩阵乘法 size= 1024,time = 1.260919,gflops:1.703110,progress:8 
+mpi矩阵乘法 size= 2048,time = 12.008994,gflops:1.430584,progress:8 
+
+mpi矩阵乘法 size= 16,time = 0.000704,gflops:0.011636,progress:16 
+mpi矩阵乘法 size= 64,time = 0.000469,gflops:1.116822,progress:16 
+mpi矩阵乘法 size= 128,time = 0.002921,gflops:1.435862,progress:16 
+mpi矩阵乘法 size= 256,time = 0.010491,gflops:3.198507,progress:16 
+mpi矩阵乘法 size= 512,time = 0.112782,gflops:2.380137,progress:16 
+mpi矩阵乘法 size= 1024,time = 1.044110,gflops:2.056761,progress:16 
+mpi矩阵乘法 size= 2048,time = 8.606197,gflops:1.996221,progress:16 
+
+mpi矩阵乘法 size= 16,time = 0.015834,gflops:0.000517,progress:32 
+mpi矩阵乘法 size= 64,time = 0.027760,gflops:0.018886,progress:32 
+mpi矩阵乘法 size= 128,time = 0.192547,gflops:0.021783,progress:32 
+mpi矩阵乘法 size= 256,time = 0.145775,gflops:0.230179,progress:32 
+mpi矩阵乘法 size= 512,time = 0.559561,gflops:0.479725,progress:32 
+mpi矩阵乘法 size= 1024,time = 1.785684,gflops:1.202611,progress:32 
+mpi矩阵乘法 size= 2048,time = 10.379193,gflops:1.655222,progress:32 
+
+mpi矩阵乘法 size= 16,time = 0.062187,gflops:0.000132,progress:64 
+mpi矩阵乘法 size= 64,time = 0.047820,gflops:0.010964,progress:64 
+mpi矩阵乘法 size= 128,time = 0.987498,gflops:0.004247,progress:64 
+mpi矩阵乘法 size= 256,time = 2.046944,gflops:0.016392,progress:64 
+mpi矩阵乘法 size= 512,time = 3.480099,gflops:0.077134,progress:64 
+mpi矩阵乘法 size= 1024,time = 8.829051,gflops:0.243229,progress:64 
+mpi矩阵乘法 size= 2048,time = 30.610532,gflops:0.561240,progress:64 
