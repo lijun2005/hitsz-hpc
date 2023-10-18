@@ -6,7 +6,7 @@
 
 - os:ubuntu20.04
 - gcc:(Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
-- cpu:型号：AMD Ryzen 7 5800H with Radeon Graphics，频率：1497.872 MHZ ，核数：8
+- cpu:型号：AMD Ryzen 7 5800H with Radeon Graphics，频率：3200 MHZ ，核数：16
 - 内存：16G
 
 ## 具体实验
@@ -82,7 +82,8 @@ void *thread_multiply(void *args) {
 详见time.txt文件
 ![](result.png)
 ![](result1.png)
-
+![](speedup.png)
+![](result2.png)
 ## 实验结果分析
 
 1. 在最低规模下，朴素矩阵乘法最优

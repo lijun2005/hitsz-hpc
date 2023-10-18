@@ -3,21 +3,21 @@
 #include "sys/time.h"
 #include "time.h"
 #include <cblas.h>
-#define N 2050
+#define N 12000
 
 
 int main()
 {
     struct timeval start,finish;
     double duration; 
-    int size[7] = {16 ,64, 128,256, 512,1024,2048};
+    int size[9] = {16 ,64, 128,256, 512,1024,2048,5096,10192};
     FILE  *fp;
     fp = fopen("time.txt","a");
     printf("开始计算！\n");
     srand(time(NULL));
 
 
-    for (int i=0;i<=6;i++)
+    for (int i=0;i<=8;i++)
         { 
             double* A = (double*)malloc(sizeof(double) * size[i]*size[i]);
             double* B = (double*)malloc(sizeof(double) * size[i]*size[i]);

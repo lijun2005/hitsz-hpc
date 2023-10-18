@@ -54,16 +54,16 @@ int main() {
         { 
             gettimeofday(&start,NULL);
             int chunk_size = size[i] / core_nums;
-            for (int i = 0; i < core_nums; i++) {
-                thread_args[i].start_row = i * chunk_size;
-                thread_args[i].end_row = (i + 1) * chunk_size;
-                thread_args[i].size = size[i];
-                pthread_create(&threads[i], NULL, thread_multiply, (void *)&thread_args[i]);
+            for (int k = 0; k < core_nums; k++) {
+                thread_args[k].start_row = k * chunk_size;
+                thread_args[k].end_row = (k + 1) * chunk_size;
+                thread_args[k].size = size[k];
+                pthread_create(&threads[k], NULL, thread_multiply, (void *)&thread_args[k]);
             }
 
             // 等待所有线程完成
-            for (int i = 0; i < core_nums; i++) {
-                pthread_join(threads[i], NULL);
+            for (int j = 0; j < core_nums; j++) {
+                pthread_join(threads[j], NULL);
             }
             gettimeofday(&finish,NULL);
             double gflops = 2.0 * size[i] *size[i]*size[i];
